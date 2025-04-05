@@ -24,3 +24,4 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
     )
 
 app.include_router(one_database)
+app.include_router(one_database)
